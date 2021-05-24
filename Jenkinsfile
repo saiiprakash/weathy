@@ -2,7 +2,6 @@ pipeline {
     agent any
     tools {
         dotnetsdk 'dotnet5'
-        docker 'docker'
     }
     stages {
     	stage('Build') 	{
